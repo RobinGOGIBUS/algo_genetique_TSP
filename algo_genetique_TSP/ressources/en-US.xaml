@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:algo_genetique_TSP.ressources"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <system:String x:Key="Culture">en-US</system:String>
+    <system:String x:Key="Title">genetic algorithm TSP</system:String>
+    <system:String x:Key="Button">Run the algorithm and generate the result</system:String>
+    <system:String x:Key="result_header">Results</system:String>
+    <system:String x:Key="header">Settings</system:String>
+    <system:String x:Key="menu_language">Language</system:String>
+    <system:String x:Key="menu_fr">French</system:String>
+    <system:String x:Key="menu_en">English</system:String>
+    <system:String x:Key="nb_generation">Nb generations :</system:String>
+    <system:String x:Key="fitness">Min "fitness" :</system:String>
+    <system:String x:Key="mutations_rate">Mutations rate :</system:String>
+    <system:String x:Key="mutation_addRate">Mutations add rate :</system:String>
+    <system:String x:Key="mutation_deleteRate">Mutations delete rate :</system:String>
+    <system:String x:Key="crossoverRate">Crossover rate :</system:String>
+
+</ResourceDictionary>
