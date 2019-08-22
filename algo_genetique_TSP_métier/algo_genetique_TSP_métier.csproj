@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ressources\" />
+    <Compile Remove="ressources\**" />
+    <EmbeddedResource Remove="ressources\**" />
+    <None Remove="ressources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationFramework">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\PresentationFramework.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

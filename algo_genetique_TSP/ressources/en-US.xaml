@@ -11,7 +11,7 @@
     <system:String x:Key="menu_language">Language</system:String>
     <system:String x:Key="menu_fr">French</system:String>
     <system:String x:Key="menu_en">English</system:String>
-    <system:String x:Key="nb_generation">Nb generations :</system:String>
+    <system:String x:Key="nb_generation">Nb max generations :</system:String>
     <system:String x:Key="fitness">Min "fitness" :</system:String>
     <system:String x:Key="mutations_rate">Mutations rate :</system:String>
     <system:String x:Key="mutation_addRate">Mutations add rate :</system:String>

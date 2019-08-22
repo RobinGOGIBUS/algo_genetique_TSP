@@ -8,11 +8,11 @@
         Title="{DynamicResource Title}" MaxHeight="480" MaxWidth="800" MinHeight="480" MinWidth="800">
     <Grid Margin="0,0,0,-10">
         <Button Content="{DynamicResource Button}" x:Name="run" HorizontalAlignment="Left" Margin="277,255,0,0" VerticalAlignment="Top" Width="227" RenderTransformOrigin="0.232,0.718"/>
-        <ListView HorizontalAlignment="Left" Height="128" Margin="190,294,0,0" VerticalAlignment="Top" Width="400" >
+        <ListView x:Name="result" HorizontalAlignment="Left" Height="128" Margin="190,294,0,0" VerticalAlignment="Top" Width="400" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="400" >
-                        <GridViewColumnHeader x:Name="result" Content="{DynamicResource result_header}"/>
+                        <GridViewColumnHeader  Content="{DynamicResource result_header}"/>
                     </GridViewColumn>
                 </GridView>
             </ListView.View>
@@ -20,17 +20,17 @@
         <GroupBox Header="{DynamicResource header}" HorizontalAlignment="Left" Height="230" Margin="277,20,0,0" VerticalAlignment="Top" Width="227">
             <StackPanel>
                 <TextBlock Text="{DynamicResource nb_generation}"/>
-                <TextBox x:Name="nbGen" MaxLength="3" />
+                <TextBox x:Name="nbMaxGen" MaxLength="3" />
                 <TextBlock Text="{DynamicResource fitness}" />
-                <TextBox x:Name="fitness" MaxLength="7" />
+                <TextBox x:Name="minfit" MaxLength="7" />
                 <TextBlock Text="{DynamicResource mutations_rate}" />
-                <TextBox x:Name="mutationsRate" MaxLength="4" />
+                <TextBox x:Name="mutsRate" MaxLength="4" />
                 <TextBlock Text="{DynamicResource mutation_addRate}" />
-                <TextBox x:Name="mutationAddRate" MaxLength="4" />
+                <TextBox x:Name="mutAddRate" MaxLength="4" />
                 <TextBlock Text="{DynamicResource mutation_deleteRate}" />
-                <TextBox x:Name="mutationDeleteRate" MaxLength="4" />
+                <TextBox x:Name="mutDeleteRate" MaxLength="4" />
                 <TextBlock Text="{DynamicResource crossoverRate}" />
-                <TextBox x:Name="crossoverRate" MaxLength="4" />
+                <TextBox x:Name="crossRate" MaxLength="4" />
             </StackPanel>
         </GroupBox>
 

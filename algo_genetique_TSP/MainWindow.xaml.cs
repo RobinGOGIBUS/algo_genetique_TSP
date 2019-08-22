@@ -1,4 +1,5 @@
-﻿using System;
+﻿using algo_genetique_TSP_métier;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,7 +33,7 @@ namespace algo_genetique_TSP
             {
                 if (Thread.CurrentThread.CurrentCulture.Name != "fr-FR")
                 {
-                    ((App)Application.Current).ChangeLangage(new Uri(@"Ressources\fr-FR.xaml", UriKind.Relative));
+                    ((App)Application.Current).ChangeLangage(new Uri(@"ressources\fr-FR.xaml", UriKind.Relative));
                 }
             }
         }
@@ -43,7 +44,7 @@ namespace algo_genetique_TSP
             {
                 if (Thread.CurrentThread.CurrentCulture.Name != "en-US")
                 {
-                    ((App)Application.Current).ChangeLangage(new Uri(@"Ressources\en-US.xaml", UriKind.Relative));
+                    ((App)Application.Current).ChangeLangage(new Uri(@"ressources\en-US.xaml", UriKind.Relative));
                 }
             }
         }
