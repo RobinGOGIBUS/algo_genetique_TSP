@@ -2,5 +2,6 @@
 {
     public interface IGene
     {
+        void Mutate();
     }
 }

@@ -23,12 +23,12 @@ namespace algo_genetique_TSP_métier
             {
                 if (!lecture_fichierVilles())
                 {
-                    throw new Exception("Un problème a lieu avec le fichier 'villes.tsp'.\n Vérifier que celui-ci existe'.\n");
+                    throw new Exception("Un problème a lieu avec le fichier 'villes.tsp'.\n Vérifier que celui-ci existe et est bien présent dans le dossier ressoucres.\n");
                 }
             }
             else
             {
-                throw new Exception("Un problème a lieu avec le fichier 'noms.csv'.\n Vérifier que celui-ci existe'.\n");
+                throw new Exception("Un problème a lieu avec le fichier 'noms.csv'.\n Vérifier que celui-ci existe et est bien présent dans le dossier ressoucres.\n");
             }
 
 
@@ -123,15 +123,18 @@ namespace algo_genetique_TSP_métier
         public static double getDistance(City _city1, City _city2)
         {
             
-            return (Math.Pow((_city1.X - _city2.X), 2) + Math.Pow((_city1.Y - _city2.Y), 2));
+            double distance = (Math.Pow((_city1.X - _city2.X), 2) + Math.Pow((_city1.Y - _city2.Y), 2));
+            distance = Math.Sqrt(distance) * 100;
+            return distance;
 
         }
 
-        public static List<City> Cities
+        public static List<City> getCities()
         {
-            get {
-                return cities;
-            }
+            List<City> listCities = new List<City>();
+            listCities.AddRange(cities);
+            return listCities;
+            
         }
 
        

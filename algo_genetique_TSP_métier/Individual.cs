@@ -7,7 +7,7 @@ namespace algo_genetique_TSP_métier
     public abstract class Individual
     {
         protected double fitness = -1;
-        private List<IGene> genome;
+        protected List<IGene> genome;
 
         public double Fitness
         {
@@ -23,7 +23,7 @@ namespace algo_genetique_TSP_métier
         public override string ToString()
         {
             String gen = fitness + " : ";
-            gen += String.Join(" - ", genome);
+            gen += String.Join(" , ", genome);
             return gen;
         }
 

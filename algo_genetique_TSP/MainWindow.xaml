@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="{DynamicResource Title}" MaxHeight="480" MaxWidth="800" MinHeight="480" MinWidth="800">
     <Grid Margin="0,0,0,-10">
-        <Button Content="{DynamicResource Button}" x:Name="run" HorizontalAlignment="Left" Margin="277,255,0,0" VerticalAlignment="Top" Width="227" RenderTransformOrigin="0.232,0.718"/>
+        <Button Content="{DynamicResource Button}" x:Name="run" HorizontalAlignment="Left" Margin="277,255,0,0" VerticalAlignment="Top" Width="227" RenderTransformOrigin="0.232,0.718" Click="Run_algo_TSP"/>
         <ListView x:Name="result" HorizontalAlignment="Left" Height="128" Margin="190,294,0,0" VerticalAlignment="Top" Width="400" >
             <ListView.View>
                 <GridView>
@@ -20,7 +20,7 @@
         <GroupBox Header="{DynamicResource header}" HorizontalAlignment="Left" Height="230" Margin="277,20,0,0" VerticalAlignment="Top" Width="227">
             <StackPanel>
                 <TextBlock Text="{DynamicResource nb_generation}"/>
-                <TextBox x:Name="nbMaxGen" MaxLength="3" />
+                <TextBox x:Name="nbMaxGen" MaxLength="5" />
                 <TextBlock Text="{DynamicResource fitness}" />
                 <TextBox x:Name="minfit" MaxLength="7" />
                 <TextBlock Text="{DynamicResource mutations_rate}" />
@@ -37,8 +37,8 @@
         <DockPanel Height="20" Margin="0,0,0,0" VerticalAlignment="Top">
             <Menu DockPanel.Dock="Top" Height="20" Background="White">
                 <MenuItem Header="{DynamicResource menu_language}" >
-                    <MenuItem x:Name="francais" Header="{DynamicResource menu_fr}" Click="switch_lang_fr"   />
-                    <MenuItem x:Name="anglais" Header="{DynamicResource menu_en}" Click="switch_lang_en"  />
+                    <MenuItem x:Name="francais" Header="{DynamicResource menu_fr}" Click="Switch_lang_fr"   />
+                    <MenuItem x:Name="anglais" Header="{DynamicResource menu_en}" Click="Switch_lang_en"  />
                 </MenuItem>
             </Menu>
         </DockPanel>
