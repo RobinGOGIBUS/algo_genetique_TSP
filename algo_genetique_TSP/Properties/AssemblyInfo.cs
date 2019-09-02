@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("algo_genetique_TSP")]
 [assembly: AssemblyDescription("Application contenant un algorithme génétique pour la résolution du problème du voyageur de commerce avec des villes de la bourgogne(France).")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("rg")]
 [assembly: AssemblyProduct("algo_genetique_TSP")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]

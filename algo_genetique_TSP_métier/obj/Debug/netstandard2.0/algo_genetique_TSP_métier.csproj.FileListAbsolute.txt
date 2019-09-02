@@ -22,4 +22,3 @@ D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.csproj.CopyComplete
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.pdb
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.csprojAssemblyReference.cache

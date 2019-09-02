@@ -16,7 +16,6 @@ D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Release\netstandard2.0\System.Windows.Input.Manipulations.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Release\netstandard2.0\System.Windows.Forms.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Release\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Release\netstandard2.0\algo_genetique_TSP_métier.csprojAssemblyReference.cache
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Release\netstandard2.0\algo_genetique_TSP_métier.csproj.CoreCompileInputs.cache
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Release\netstandard2.0\algo_genetique_TSP_métier.AssemblyInfoInputs.cache
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Release\netstandard2.0\algo_genetique_TSP_métier.AssemblyInfo.cs
