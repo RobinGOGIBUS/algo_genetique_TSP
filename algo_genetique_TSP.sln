@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algo_genetique_TSP", "algo_genetique_TSP\algo_genetique_TSP.csproj", "{1DD14D5A-86E4-4C8D-BA1D-375DDD967AF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algo_genetique_TSP_métier", "algo_genetique_TSP_métier\algo_genetique_TSP_métier.csproj", "{9099F633-ACF3-4654-9CB7-7EF4E1F1B02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "algo_genetique_TSP_métier", "algo_genetique_TSP_métier\algo_genetique_TSP_métier.csproj", "{9099F633-ACF3-4654-9CB7-7EF4E1F1B02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algo_genetique_TSP_testUnitaire", "algo_genetique_TSP_testUnitaire\algo_genetique_TSP_testUnitaire.csproj", "{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "algo_genetique_TSP_setup", "algo_genetique_TSP_setup\algo_genetique_TSP_setup.vdproj", "{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,36 @@ Global
 		{9099F633-ACF3-4654-9CB7-7EF4E1F1B02C}.Release|x64.Build.0 = Release|Any CPU
 		{9099F633-ACF3-4654-9CB7-7EF4E1F1B02C}.Release|x86.ActiveCfg = Release|Any CPU
 		{9099F633-ACF3-4654-9CB7-7EF4E1F1B02C}.Release|x86.Build.0 = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|ARM.Build.0 = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|x64.Build.0 = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Debug|x86.Build.0 = Debug|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|ARM.ActiveCfg = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|ARM.Build.0 = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|ARM64.Build.0 = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|x64.ActiveCfg = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|x64.Build.0 = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|x86.ActiveCfg = Release|Any CPU
+		{8E58F85C-4E44-4A27-88BE-F93CF5AE7C69}.Release|x86.Build.0 = Release|Any CPU
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Debug|Any CPU.ActiveCfg = Debug
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Debug|ARM.ActiveCfg = Debug
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Debug|ARM64.ActiveCfg = Debug
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Debug|x64.ActiveCfg = Debug
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Debug|x86.ActiveCfg = Debug
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Release|Any CPU.ActiveCfg = Release
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Release|ARM.ActiveCfg = Release
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Release|ARM64.ActiveCfg = Release
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Release|x64.ActiveCfg = Release
+		{DE9738DA-B1F4-4E90-8182-0DC6CCD9AFF1}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

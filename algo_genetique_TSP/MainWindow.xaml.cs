@@ -1,21 +1,9 @@
 ﻿using algo_genetique_TSP_métier;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace algo_genetique_TSP
 {
@@ -27,10 +15,10 @@ namespace algo_genetique_TSP
         public MainWindow()
         {
             InitializeComponent();
-            initParamValues();
+            InitParamValues();
         }
 
-        public void initParamValues()
+        public void InitParamValues()
         {
             crossRate.Text = "0.0";
             mutsRate.Text = "0.3";
@@ -78,10 +66,10 @@ namespace algo_genetique_TSP
             Parameters.MinFitness = int.TryParse(minfit.Text, NumberStyles.Number, CultureInfo.InvariantCulture, out y) &&  y > 0 ? y : 779;
             Parameters.GenerationMaxNb = int.TryParse(nbMaxGen.Text, NumberStyles.Number, CultureInfo.InvariantCulture, out y) && y > 0 && y < 100000 ? y : 500;
 
-            crossRate.Text = Parameters.CrossoverRate.ToString();
-            mutsRate.Text = Parameters.MutationsRate.ToString();
-            mutAddRate.Text = Parameters.MutationAddRate.ToString();
-            mutDeleteRate.Text = Parameters.MutationDeleteRate.ToString();
+            crossRate.Text = Parameters.CrossoverRate.ToString(CultureInfo.InvariantCulture);
+            mutsRate.Text = Parameters.MutationsRate.ToString(CultureInfo.InvariantCulture);
+            mutAddRate.Text = Parameters.MutationAddRate.ToString(CultureInfo.InvariantCulture);
+            mutDeleteRate.Text = Parameters.MutationDeleteRate.ToString(CultureInfo.InvariantCulture);
             minfit.Text = Parameters.MinFitness.ToString();
             nbMaxGen.Text = Parameters.GenerationMaxNb.ToString();
 
@@ -91,8 +79,8 @@ namespace algo_genetique_TSP
         {
             VerificationParams();
             result.Items.Clear();
-            result.Items.Add("Génération en cours...");
-            run.IsEnabled = false;        
+            result.Items.Add((string) Application.Current.Resources["gen_enCours"]);
+            run.IsEnabled = false;
             try
             {
                 WriteFile.getInstance().Init();
@@ -101,8 +89,8 @@ namespace algo_genetique_TSP
                     geneticAlgoTSP.Run();
 
                 });
-                MessageBox.Show("Génération terminée !", "", MessageBoxButton.OK, MessageBoxImage.Information);
-                result.Items.Add("Génération réussi !");
+                MessageBox.Show((string) Application.Current.Resources["gen_terminee"], "", MessageBoxButton.OK, MessageBoxImage.Information);
+                result.Items.Add((string)Application.Current.Resources["gen_reussi"]);
                 run.IsEnabled = true;
                 WriteFile.getInstance().Open();
             }
@@ -123,7 +111,7 @@ namespace algo_genetique_TSP
         public void PrintError(string error)
         {
             MessageBox.Show(error, "", MessageBoxButton.OK, MessageBoxImage.Error);
-            result.Items.Add("Une erreur est survenue.");
+            result.Items.Add((string)Application.Current.Resources["gen_echec"]);
         }
     }
 }

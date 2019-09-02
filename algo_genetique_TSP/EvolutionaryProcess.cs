@@ -1,9 +1,6 @@
 ﻿using algo_genetique_TSP_métier;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace algo_genetique_TSP
 {
@@ -81,7 +78,7 @@ namespace algo_genetique_TSP
             population = newGeneration;
         }
 
-        private Individual Selection()
+        public Individual Selection()
         {
             int totalRanks = Parameters.IndividualsNb * (Parameters.IndividualsNb + 1) / 2;
             int rand = Parameters.RandomGenerator.Next(totalRanks);

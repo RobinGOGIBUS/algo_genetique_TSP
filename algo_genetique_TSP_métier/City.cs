@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace algo_genetique_TSP_métier
+﻿namespace algo_genetique_TSP_métier
 {
     public class City
     {

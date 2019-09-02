@@ -16,6 +16,10 @@
     <system:String x:Key="mutation_addRate">Taux ajout gènes :</system:String>
     <system:String x:Key="mutation_deleteRate">Taux suppression gènes :</system:String>
     <system:String x:Key="crossoverRate">Taux de crossover :</system:String>
+    <system:String x:Key="gen_enCours">Génération en cours...</system:String>
+    <system:String x:Key="gen_terminee">Génération terminée !</system:String>
+    <system:String x:Key="gen_reussi">Génération réussi.</system:String>
+    <system:String x:Key="gen_echec">La génération a échoué.</system:String>
     
     
 </ResourceDictionary>

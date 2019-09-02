@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Windows;
+using System.Text.RegularExpressions;
 
 namespace algo_genetique_TSP_métier
 {
@@ -19,9 +18,9 @@ namespace algo_genetique_TSP_métier
         {
             cities = new List<City>();
             listeNoms = new List<string>();
-            if (lecture_fichierNom())
+            if (Lecture_fichierNom())
             {
-                if (!lecture_fichierVilles())
+                if (!Lecture_fichierNoms())
                 {
                     throw new Exception("Un problème a lieu avec le fichier 'villes.tsp'.\n Vérifier que celui-ci existe et est bien présent dans le dossier ressoucres.\n");
                 }
@@ -34,7 +33,7 @@ namespace algo_genetique_TSP_métier
 
         }
 
-        private static bool lecture_fichierVilles()
+        public static bool Lecture_fichierNoms()
         {
             bool res = false;
             if (File.Exists(fichierVilles))
@@ -46,7 +45,7 @@ namespace algo_genetique_TSP_métier
                 double y;
                 while ((s = sr.ReadLine()) != null)
                 {
-                    string[] elements = System.Text.RegularExpressions.Regex.Split(s, @" ");
+                    string[] elements = Regex.Split(s, @" ");
                     elements[0] = elements[0] != null ? elements[0] : "";
                     if (int.TryParse(elements[0], out numero))
                     {
@@ -73,7 +72,7 @@ namespace algo_genetique_TSP_métier
             
         }
 
-        private static void ajouteVille(int numero, double x, double y)
+        public static void ajouteVille(int numero, double x, double y)
         {
             if (listeNoms.ElementAtOrDefault(numero-1) != null)
             {
@@ -84,7 +83,7 @@ namespace algo_genetique_TSP_métier
             }
         }
 
-        private static bool lecture_fichierNom()
+        public static bool Lecture_fichierNom()
         {
             bool res = false;
             //throw new NotImplementedException();
@@ -137,6 +136,27 @@ namespace algo_genetique_TSP_métier
             
         }
 
-       
+        public static string FichierVilles {
+            get {
+                return fichierVilles;
+            }
+            set {
+                fichierVilles = value;
+            }
+        }
+
+        public static string FichierNoms
+        {
+            get
+            {
+                return fichierNoms;
+            }
+            set
+            {
+                fichierNoms = value;
+            }
+        }
+
+
     }
 }

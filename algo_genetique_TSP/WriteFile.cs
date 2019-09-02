@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics;
 using System.IO;
-using System.Windows;
+using System.Text;
 
 namespace algo_genetique_TSP
 {
@@ -30,12 +30,12 @@ namespace algo_genetique_TSP
                 if (File.Exists(@"" + fichier))
                 {
                     //File.Open(@"" + fichier, FileMode.Truncate);
-                    sw = new StreamWriter(@"" + fichier);
+                    sw = new StreamWriter(@"" + fichier, false, Encoding.UTF8);
                 }
                 else
                 {
                     //File.Create(@"" + fichier);
-                    sw = new StreamWriter(@"" + fichier);
+                    sw = new StreamWriter(@"" + fichier, true, Encoding.UTF8);
                 }
             }
             catch (Exception e) {

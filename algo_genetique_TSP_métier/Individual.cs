@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace algo_genetique_TSP_métier
 {
@@ -23,7 +22,7 @@ namespace algo_genetique_TSP_métier
         public override string ToString()
         {
             String gen = fitness + " : ";
-            gen += String.Join(" , ", genome);
+            gen += String.Join(", ", genome);
             return gen;
         }
 

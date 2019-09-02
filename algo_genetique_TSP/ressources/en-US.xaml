@@ -17,5 +17,9 @@
     <system:String x:Key="mutation_addRate">Mutations add rate :</system:String>
     <system:String x:Key="mutation_deleteRate">Mutations delete rate :</system:String>
     <system:String x:Key="crossoverRate">Crossover rate :</system:String>
+    <system:String x:Key="gen_enCours">Generation in progress...</system:String>
+    <system:String x:Key="gen_terminee">Generation completed !</system:String>
+    <system:String x:Key="gen_reussi">Generation completed.</system:String>
+    <system:String x:Key="gen_echec">Generation failed.</system:String>
 
 </ResourceDictionary>

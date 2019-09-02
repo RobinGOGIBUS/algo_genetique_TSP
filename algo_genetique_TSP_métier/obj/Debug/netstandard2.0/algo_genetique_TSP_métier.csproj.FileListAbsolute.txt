@@ -1,12 +1,6 @@
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\algo_genetique_TSP_métier.deps.json
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\algo_genetique_TSP_métier.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\algo_genetique_TSP_métier.pdb
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.csproj.CoreCompileInputs.cache
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.AssemblyInfoInputs.cache
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.AssemblyInfo.cs
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.dll
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.pdb
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.csprojAssemblyReference.cache
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\PresentationFramework.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\System.Xaml.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\WindowsBase.dll
@@ -22,4 +16,10 @@ D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\System.Windows.Forms.dll
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.csproj.CoreCompileInputs.cache
+D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.AssemblyInfoInputs.cache
+D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.AssemblyInfo.cs
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.csproj.CopyComplete
+D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.dll
+D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.pdb
+D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP_métier\obj\Debug\netstandard2.0\algo_genetique_TSP_métier.csprojAssemblyReference.cache
