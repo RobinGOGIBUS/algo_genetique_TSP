@@ -15,7 +15,6 @@ D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\algo_genetique_TSP.g.resources
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\algo_genetique_TSP.Properties.Resources.resources
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\algo_genetique_TSP.csproj.GenerateResource.cache
-D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\algo_genetique_TSP.csproj.CoreCompileInputs.cache
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\algo_genetique_TSP.csproj.CopyComplete
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\algo_genetique_TSP.exe
 D:\projets\algo_genetique_TSP\algo_genetique_TSP\algo_genetique_TSP\obj\Release\algo_genetique_TSP.pdb
